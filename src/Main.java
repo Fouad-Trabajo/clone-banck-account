@@ -33,7 +33,7 @@ public class Main {
         BankAccountPresentation.save(bankAccount);
     }
 
-    private static void addTransaction(){
+    private static void addTransaction() {
         BankAccountPresentation.addTransaction(
                 "1", new Transaction("1", "Compra Mercadona", "12"));
 
